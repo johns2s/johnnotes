@@ -13,6 +13,7 @@ include("header.php");
   </div>
   <div class = "sidebar card">
     <h2 class = "cardTitle cardTitleH2">John Sarbak</h2>
+    <a href = "#" class = "btn" style = "margin-bottom: 25px">New Quack</a>
     <label class = "label">Bio</label>
     <p>Hi, I'm the dev of Quack! I have my web dev class blog and more here.</p>
     <label class = "label">Stats</label>
@@ -27,7 +28,7 @@ include("header.php");
         <a href = "#" class = "sidebarInItemColored">Life</a>
         <a href = "#" class = "sidebarInItemColored">Politics</a>
         <a href = "#" class = "sidebarInItemColored">Quack Dev</a>
-        <div class = "sidebarPlus"><img class = "plus" alt = "more icon" title = "Show More" src = "plus.png"></div>
+        <div class = "sidebarPlus"><img class = "plus" alt = "more icon" title = "Options" src = "plus.png"></div>
       </div>
     </div>
 

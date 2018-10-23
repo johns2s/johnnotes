@@ -179,6 +179,8 @@ main {
   color: #fff;
   padding: 10px;
   border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
 }
 
 .btn:hover {
@@ -228,16 +230,18 @@ main {
   font-size: .8em;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .sidebarIn {
   display: grid;
   grid-gap: 8px;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   font-size: .8em;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 5px 0 25px;
+  margin-bottom: 25px;
   background-color: #f8f2ee;
   padding: 25px;
   position: relative;
