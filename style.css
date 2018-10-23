@@ -19,6 +19,10 @@ rgba(0, 0, 0, 0.7) [text]
   box-sizing: border-box;
 }
 
+ul {
+  margin-left: 30px;
+}
+
 h1 {
 	font-size: 2.3em;
 	font-weight: 700;
@@ -190,9 +194,10 @@ main {
 }
 
 .userQuack {
-  border: 3px solid #cfcfcf;
+  border: 1px solid #d8d8d8;
   padding: 15px;
   position: relative;
+  border-radius: 8px;
 }
 
 .userQuackTitle {
@@ -223,6 +228,49 @@ main {
   font-size: .8em;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.sidebarIn {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  font-size: .8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 5px 0 25px;
+  background-color: #f8f2ee;
+  padding: 25px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.sidebarInImg {
+  width: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.sidebarInSmall {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.sidebarInItemColored {
+  background-color: #489be8;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.sidebarPlus {
+  position: absolute;
+  bottom: -16px;
+  left: calc(50% - 16px);
+  background-color: #489be8;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 

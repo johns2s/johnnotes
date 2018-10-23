@@ -22,7 +22,7 @@ include("config.php");
 
 <header>
   <a href = "index.php" class = "headerTitle">
-    <img class = "logo" src = "logo.png"></img>
+    <img class = "logo" title = "logo" alt = "logo" src = "logo.png"></img>
     Quack
    </a>
 
