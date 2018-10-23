@@ -13,7 +13,7 @@ rgba(0, 0, 0, 0.7) [text]
   border: 0;
   line-height: 1.4;
   font-size: 1em;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(0, 0, 0, 0.7);
   overflow-wrap: break-word;
   box-sizing: border-box;
@@ -36,9 +36,10 @@ h2 {
 
 h3 {
 	font-size: 1.4em;
-	font-weight: 400;
+	font-weight: 700;
   line-height: 1.2;
   color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 25px;
 }
 
 p {
@@ -73,13 +74,16 @@ header {
   padding: 0 25px;
   box-shadow: 0 2px 9px 3px rgba(0, 0, 0, 0.1);
   background-color: #f8f2ee;
-
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .headerTitle {
   line-height: 75px;
   height: 75px;
-  font-family: "Righteous", "Noto Sans", sans-serif;
+  font-family: "Righteous", "Open Sans", sans-serif;
   font-size: 2em;
   color: rgba(0, 0, 0, 0.9);
 }
@@ -105,31 +109,17 @@ nav {
   height: 75px;
   color: rgba(0, 0, 0, 0.4);
   font-size: 1.2em;
-  font-family: "Righteous", "Noto Sans", sans-serif;
+  font-family: "Righteous", "Open Sans", sans-serif;
   display: inline-block;
 }
 
 /* page */
 
 main {
-  padding: 50px 25px;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 125px 25px 50px;
 }
 
-.listQuack {
-  display: grid;
-  grid-gap: 25px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-}
-
-.listQuackItem {
-  padding: 25px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-}
+/* cards */
 
 .cardTitle {
   background-color: #489be8;
@@ -148,11 +138,6 @@ main {
   padding: 25px;
 }
 
-.listQuackItemDescription {
-  color: rgba(0, 0, 0, 0.9);
-  margin: 0;
-}
-
 .wrapCard {
   padding: 25px;
   margin: 0 auto;
@@ -166,9 +151,6 @@ main {
   border-radius: 8px;
   padding: 25px;
 }
-
-/* index */
-
 
 /* logsign */
 
@@ -195,6 +177,54 @@ main {
   border-radius: 8px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
+/* user */
+
+.cols2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+}
+
+.userQuack {
+  border: 3px solid #cfcfcf;
+  padding: 15px;
+  position: relative;
+}
+
+.userQuackTitle {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.userQuackPreview {
+  margin: 0;
+}
+
+.userQuackPlus {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #489be8;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.plus {
+  display: block;
+  width: 16px;
+}
+
+.label {
+  font-size: .8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 
 footer {
   max-width: 900px;
@@ -203,11 +233,10 @@ footer {
   text-align: center;
 }
 @media (min-width: 600px) {
-  .listQuackItem {
-    min-width: 250px;
-    max-width: 400px;
+  .cols2 {
+    grid-template-columns: 23fr 8fr;
   }
-  .cardTitleH2 {
-    padding: 30px 25px;
+  .sidebar {
+    min-width: 250px;
   }
 }
