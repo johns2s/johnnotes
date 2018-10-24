@@ -5,10 +5,10 @@ include("header.php");
 <main class = "cols2">
   <div class = "content card">
     <h2 class = "cardTitle cardTitleH2">Recent Quacks</h2>
-    <div class = "userQuack">
-      <h3 class = "userQuackTitle">Welcome to my Quackstream!</h3>
-      <p class = "userQuackPreview">welcome to Quack</p>
-      <div class = "userQuackPlus"><img class = "plus" alt = "more icon" title = "Options" src = "plus.png"></div>
+    <div class = "quack">
+    <h4>First Quack!</h4>
+      <p>welcome to Quack</p>
+      <div class = "quackPlus"><img class = "plus" alt = "more icon" title = "Options" src = "menu.png"></div>
     </div>
   </div>
   <div class = "sidebar card">
