@@ -9,6 +9,7 @@ include("header.php");
     <h4>First Quack!</h4>
       <p>welcome to Quack</p>
       <div class = "quackPlus"><img class = "plus" alt = "more icon" title = "Options" src = "menu.png"></div>
+      <div class = "hidden details"></div>
     </div>
   </div>
   <div class = "sidebar card">

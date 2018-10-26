@@ -164,6 +164,14 @@ main {
   padding: 25px;
 }
 
+/* index */
+
+.quackList {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 /* logsign */
 
 .text {
@@ -223,6 +231,11 @@ main {
 .plus {
   display: block;
   width: 16px;
+  transition: all 0.2s ease;
+}
+
+.quackPlus:hover > .plus {
+    transform: rotate(-45deg);
 }
 
 .label {

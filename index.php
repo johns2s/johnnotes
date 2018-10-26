@@ -5,23 +5,24 @@ include("header.php");
 <main>
 
   <h2>Popular Quackstreams</h2>
-  <div class = "listQuack">
-    <div class = "listQuackItem">
+  <div class = "content quackList">
+    <div class = "card">
       <h3 class = "cardTitle cardTitleH3">devnotes</h3>
-      <p class = "listQuackItemDescription">our founder and savior</p>
+      <p>our founder and savior</p>
     </div>
-    <div class = "listQuackItem">
+    <div class = "card">
       <h3 class = "cardTitle cardTitleH3">devnotes</h3>
-      <p class = "listQuackItemDescription">our founder and savior</p>
+      <p>our founder and savior</p>
     </div>
-    <div class = "listQuackItem">
+    <div class = "card">
       <h3 class = "cardTitle cardTitleH3">devnotes</h3>
-      <p class = "listQuackItemDescription">our founder and savior</p>
+      <p>our founder and savior</p>
     </div>
-    <div class = "listQuackItem">
+    <div class = "card">
       <h3 class = "cardTitle cardTitleH3">devnotes</h3>
-      <p class = "listQuackItemDescription">our founder and savior</p>
+      <p>our founder and savior</p>
     </div>
+
   </div>
 
 </main>
