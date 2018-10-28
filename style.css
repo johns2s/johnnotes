@@ -234,10 +234,6 @@ main {
   transition: all 0.2s ease;
 }
 
-.quackPlus:hover > .plus {
-    transform: rotate(-45deg);
-}
-
 .label {
   font-size: .8em;
   font-weight: 700;
@@ -270,6 +266,18 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
+.details {
+  margin: 0;
+  padding: 12px 18px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #f8f2ee;
+}
+
 .sidebarInItemColored {
   background-color: #489be8;
   color: #fff;
@@ -296,6 +304,7 @@ main {
   /* in case .quack doesn't have a .card as well */
   border-radius: 8px;
   padding: 25px;
+  overflow: hidden;
 }
 
 footer {

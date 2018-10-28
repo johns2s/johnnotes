@@ -8,8 +8,9 @@ include("header.php");
     <div class = "quack">
     <h4>First Quack!</h4>
       <p>welcome to Quack</p>
-      <div class = "quackPlus"><img class = "plus" alt = "more icon" title = "Options" src = "menu.png"></div>
-      <div class = "hidden details"></div>
+      <div class = "details sidebarIn sidebarInSmall">
+        <div class = "detailItem"><img class = "sidebarInImg" alt = "calendar icon" title = "calendar icon" src = "calendar.png">Posted 8/20/18</div>
+      </div>
     </div>
   </div>
   <div class = "sidebar card">

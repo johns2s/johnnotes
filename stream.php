@@ -5,9 +5,11 @@ include("header.php");
 <main class = "cols2">
   <div class = "content list">
     <div class = "quack card">
-      <h4>Welcome to devnotes</h4>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacus risus, pharetra ut erat ut, scelerisque luctus urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin cursus est a est eleifend, eu posuere justo ultricies. Praesent venenatis, mi eu condimentum faucibus, risus neque viverra urna, vel bibendum neque neque ac diam. Nunc fermentum urna tellus, nec porttitor risus maximus laoreet. Aenean commodo hendrerit ante, eget sollicitudin nunc fermentum eu. Curabitur nec nulla nec orci varius egestas ut quis quam. In luctus tortor a nibh mollis, id sagittis magna maximus. </p>
-      <div class = "quackPlus"><img class = "plus" alt = "more icon" title = "Options" src = "menu.png"></div>
+    <h4>First Quack!</h4>
+      <p>welcome to Quack</p>
+      <div class = "details sidebarIn sidebarInSmall">
+        <div class = "detailItem"><img class = "sidebarInImg" alt = "calendar icon" title = "calendar icon" src = "calendar.png">Posted 8/20/18</div>
+      </div>
     </div>
   </div>
   <div class = "sidebar card">
