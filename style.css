@@ -235,9 +235,8 @@ main {
 }
 
 .label {
-  font-size: .8em;
+  font-size: .9em;
   font-weight: 700;
-  text-transform: uppercase;
   margin: 0 0 5px 0;
   display: block;
 }
@@ -246,9 +245,8 @@ main {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  font-size: .8em;
+  font-size: .9em;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 25px;
   background-color: #f8f2ee;
   padding: 25px;
