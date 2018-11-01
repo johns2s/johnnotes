@@ -21,6 +21,7 @@ include("header.php");
     <div class = "sidebarIn">
       <div class = "sidebarInItem"><img class = "sidebarInImg" src = "quack.png" alt = "quack icon" title = "quack icon">15 Quacks</div>
       <div class = "sidebarInItem"><img class = "sidebarInImg" src = "stream.png" alt = "quackstream icon" title = "quackstream icon">Created 5/6/17</div>
+      <div class = "sidebarInItem"><img class = "sidebarInImg" src = "user.png" alt = "user profile icon" title = "user profile icon">Created by <a href = "#">John Sarbak</a></div>
     </div>
     <label class = "label">About the author</label>
     <p>Hi, I'm the dev of Quack! I have my web dev class blog and more here.</p>
