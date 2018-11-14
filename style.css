@@ -304,11 +304,7 @@ main {
   border-radius: 8px;
   padding: 25px;
   overflow: hidden;
-}
-
-.list {
-  display: grid;
-  grid-gap: 25px;
+  margin-bottom: 25px;
 }
 
 footer {
