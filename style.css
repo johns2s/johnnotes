@@ -307,6 +307,10 @@ main {
   margin-bottom: 25px;
 }
 
+.quackSmall {
+  border-width: 1px;
+}
+
 footer {
   max-width: 900px;
   margin: 0 auto;

@@ -5,7 +5,7 @@ include("header.php");
 <main class = "cols2">
   <div class = "content card">
     <h2 class = "cardTitle cardTitleH2">Recent Quacks</h2>
-    <div class = "quack">
+    <div class = "quack quackSmall">
     <h4>First Quack!</h4>
       <p>welcome to Quack</p>
       <div class = "details sidebarIn sidebarInSmall">
