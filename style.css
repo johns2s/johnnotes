@@ -88,7 +88,7 @@ header {
   background-color: #f8f2ee;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background-color: #fff;
 }
 
@@ -151,9 +151,9 @@ main {
 }
 
 .wrapCard {
-  padding: 25px;
+  padding: 0;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .card {
@@ -309,6 +309,40 @@ main {
 
 .quackSmall {
   border-width: 1px;
+}
+
+/* edit quack! */
+
+.tools {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 25px;
+  position: fixed;
+  top: 75px;
+  z-index: 1;
+  background-color: #489be8;
+  width: 100%;
+  box-shadow: 0 2px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tools h3 {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.toolBtn {
+  float: right;
+  right: 0;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 12.5px;
+  display: inline-block;
+  width: 110px;
+  padding: 0 15px;
+  background-color: #fff;
+  color: #489be8;
 }
 
 footer {
